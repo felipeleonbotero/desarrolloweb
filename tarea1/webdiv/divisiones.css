@@ -1,0 +1,44 @@
+#container{
+     width: 100%;
+     height: 600px;
+     background-color: #30005e;
+     display: flex;
+     flex-flow: wrap;
+ }
+ 
+ #itemA{
+     width: 100%;
+     height: 80px;
+     margin-bottom: 10px;
+     background-color: rgb(122, 26, 142);
+ }
+ #itemB{
+     width: 70%;
+     height: 450px;
+     margin-bottom: 10px;
+     background-color: rgb(47, 22, 146);
+     display: flex;
+     flex-wrap: wrap;
+ 
+ #bb{
+     width: 100%;
+     height: 150px;
+     background-color: blue;
+ }    
+ 
+ .item{
+         width: 250px;
+         height: 250px;
+         margin-left: 20px;
+         background-color: aquamarine;
+     }
+ }
+ 
+ #itemF{
+     width: 29%;
+     height: 500px;
+     margin-left: 10px;
+     background-color: rgb(49, 17, 231);
+     display: flex;
+     flex-flow: column;
+ }
